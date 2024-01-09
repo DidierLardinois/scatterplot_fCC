@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 90vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid black;
+    margin-top: 3rem;
+}
+
+#graph {
+    position: relative;
+    height: 57.5vh;
+    border: 1px dotted black;
+    padding: 2rem;
+}
+
+#tooltip {
+    position: absolute;
+    pointer-events: none;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 4px;
+}
+
+footer {
+    display: flex;
+    font-size: xx-small; 
+    text-align: center;
+    padding: 0.1rem;
+    border: 1px solid black;
+}
